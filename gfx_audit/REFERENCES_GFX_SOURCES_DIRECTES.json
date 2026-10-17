@@ -1,0 +1,1305 @@
+{
+  "version": "CK3 1.20.0.3",
+  "origin": "besbesbechir93-cyber/ck3-mod-base",
+  "collected_on": "2026-10-17",
+  "source_kind": "actual script references only",
+  "source_count": 17,
+  "unique_assets": 81,
+  "refs_total": 202,
+  "assets": [
+    {
+      "path": "gfx/interface/buttons/button_standard_current.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2271
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/colors/black.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 475
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 580
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1283
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2212
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/colors/blue.dds",
+      "count": 6,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 181
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 680
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1947
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2006
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2090
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2912
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/colors/colors_textured.dds",
+      "count": 14,
+      "refs": [
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 61
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 80
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 110
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 129
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 159
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 178
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 209
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 228
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 258
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 277
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 307
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 326
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 356
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 375
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/colors/grey.dds",
+      "count": 7,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3409
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3416
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3423
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3430
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3437
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3444
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3451
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/colors/red.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 440
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_clouds.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3394
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_fade_horizontal_extended.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 873
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1179
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1247
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1821
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1839
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_fade_horizontal_right.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2479
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_fade_vertical_up.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 448
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 589
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_fade_vertical.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 674
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_portrait.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 479
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_masks/mask_scratches.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3401
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/component_tiles/tile_vignette_3px.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1194
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1262
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1856
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/activities/activity_imperial_examination.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 732
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/activity_phases/button_activity_base.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1915
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1974
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2059
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/appointment_score.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 764
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/celestial_administration_types/icon_game_concept_celestial_industrial_administration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1164
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/celestial_administration_types/icon_game_concept_celestial_metropolitan_administration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1143
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/celestial_administration_types/icon_game_concept_celestial_military_administration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1185
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/celestial_administration_types/icon_game_concept_celestial_protectorate_administration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1206
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/celestial_administration_types/icon_standard_administration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 690
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/court_position_types/favored_minister_court_position.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1105
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_advance.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 211
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 330
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2419
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 108
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 127
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_anti.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 327
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 350
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2447
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 157
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 176
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_emperor.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 135
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 305
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 324
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_expand.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 269
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 310
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2433
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 59
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_independent.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 436
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 354
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 373
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_pro.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 153
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 290
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2461
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 207
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 226
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_group_unaligned.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 385
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 256
+        },
+        {
+          "source": "gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+          "line": 275
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_advancement.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 909
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1946
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2316
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2620
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2670
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_chaos.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1828
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1939
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2852
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2897
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_conquest.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1188
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1953
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_expansion.dds",
+      "count": 5,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 629
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1960
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2325
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2729
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2793
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_instability.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1497
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1967
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2942
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2987
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/dynastic_cycle/favored_by_hegemon.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2225
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2320
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/character_interactions.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1744
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/dynastic_cycle.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 117
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2637
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/group_power.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 143
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/history.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2657
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/three_people.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2682
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/flat_icons/window_back.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2136
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/group_power.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 845
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/icon_game_concept_powerful_house.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 3267
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/icon_imperial_treasury.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 718
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1088
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/icon_merit.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 3305
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/legitimacy_level_icon.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1931
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/message_feed/culture.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 143
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 162
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/message_feed/governor.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 3287
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/message_feed/icon_scheme_promote.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 704
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/message_feed/law.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 654
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/message_feed/soldier.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 668
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1122
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/modifiers/icon_piety_confucianism_04.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 3255
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/situation_types/dynastic_cycle.dds",
+      "count": 15,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 23
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 47
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 222
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 312
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 402
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 492
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 583
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 675
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 735
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 830
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 1054
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 1174
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 1245
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 1411
+        },
+        {
+          "source": "events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+          "line": 1454
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/symbols/icon_arrow_green_down.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1009
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1071
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1252
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/symbols/icon_arrow_up.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 990
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1052
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1229
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/icons/symbols/icon_cross.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1892
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/decisions/tgp_debate.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/decisions/tgp_scholars.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 243
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_scenes/corridor.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+          "line": 8
+        },
+        {
+          "source": "common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+          "line": 429
+        },
+        {
+          "source": "common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+          "line": 623
+        },
+        {
+          "source": "common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+          "line": 832
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_scenes/tgp_asia_estate.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2101
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 3174
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_scenes/tgp_asia_throne_room.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2577
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_scenes/tgp_study_asia.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1175
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1243
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_consolidation.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1189
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1498
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_corruption.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 12
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 1829
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2275
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 2391
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_stability.dds",
+      "count": 7,
+      "refs": [
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 630
+        },
+        {
+          "source": "common/situation/situations/tgp_dynastic_cycle.txt",
+          "line": 910
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 8
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 10
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 588
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 916
+        },
+        {
+          "source": "common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+          "line": 1444
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/action_progress_frame.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1921
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1980
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2065
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2174
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/action_progress_thin_blue.dds",
+      "count": 3,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1940
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1999
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2083
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/action_progress_thin_gold.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2197
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/action_progress_thin_red.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2184
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/progress_black.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1422
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/progress_grandeur_decrease.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1421
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/progressbars/progress_grandeur_increase.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 2992
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/scrollbars/scrollbar_fade.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1439
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/skinned/mask_pattern.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3384
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/window_administrative_government/family_decoration.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3366
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3375
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/window_tgp_dynastic_cycle/dynastic_cycle_wheel_border.dds",
+      "count": 4,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 200
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 208
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 245
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 253
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/window_tgp_dynastic_cycle/dynastic_cycle_wheel_expansion.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 1309
+        }
+      ]
+    },
+    {
+      "path": "gfx/interface/window_tgp_dynastic_cycle/dynastic_cycle_wheel_top_decoration.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 292
+        }
+      ]
+    },
+    {
+      "path": "gfx/portraits/portrait_mask_body.dds",
+      "count": 2,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 496
+        },
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3167
+        }
+      ]
+    },
+    {
+      "path": "gfx/portraits/portrait_mask_torso.dds",
+      "count": 1,
+      "refs": [
+        {
+          "source": "gui/window_tgp_dynastic_cycle.gui",
+          "line": 3250
+        }
+      ]
+    }
+  ]
+}
