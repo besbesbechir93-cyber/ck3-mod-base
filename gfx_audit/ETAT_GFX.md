@@ -1,13 +1,11 @@
-# GFX du cycle dynastique — vérification réelle
+# GFX for CK3 Dynastic Cycle (current 1.20.1.1)
 
-Ce manifeste recense **29 textures exclusives identifiées** par leurs vrais chemins, tailles et empreintes SHA256 dans la base CK3 1.20.0.3. Les données sont issues du dépôt source `besbesbechir93-cyber/ck3-mod-base`.
+**29 exclusive DDS graphic paths** are listed in `MANIFEST_GFX_EXCLUSIFS.csv`, with expected original byte sizes and SHA256 digests. **81 different graphic paths** (including shared vanilla textures) are directly referenced in the original dedicated scripts/GUI, documented in `REFERENCES_GFX_SOURCES_DIRECTES.json`.
 
-**Attention : aucune de ces textures binaires n'est disponible dans ce dépôt.** Les fichiers `.dds` qui s'y trouvent sont des textes JSON de 166 à 168 octets disant `Binary file excluded from repository. Metadata only.`, **et non des images**. Les textes ont une taille et une empreinte SHA256 des images originelles pour les vérifier quand on les a.
+Latest source Git state checked on 2026-10-17: `besbesbechir93-cyber/ck3-mod-base` `master` CK3 1.20.1.1. All 29 original metadata entries are unchanged from the older 1.20.0.3 source; the 3 updated dedicated scripts/GUI introduce no added/removed graphic reference paths. The Cycle map-mode script block is unchanged.
 
-Les archives utilisateur inspectées (`CK3_Fusion_Unique.zip` et `Diwan_lot53_restauration_artefacts_ECV_original_candidate (1).zip`) ne contiennent aucun fichier dont le nom reprend `dynastic_cycle`, `tgp_dynastic`, ou `type_dynastic`. Aucune conversion PNG n'est réalisable sans DDS réels.
+**The actual .dds image contents are not on GitHub.** The mirror replaces binary DDS with JSON metadata of roughly 166–168 bytes. These are not DDS images and cannot be converted to PNG.
 
-Il faut distinguer **29 GFX spécifiques et exclusifs**, des **81 chemins graphiques différents directement appelés** dans les fichiers de scripts/GUI dédiés : ces derniers comprennent majoritairement des ressources communes déjà fournies par CK3. Le second inventaire est dans `REFERENCES_GFX_SOURCES_DIRECTES.json`.
+To obtain the actual DDS, use the game's installed `game/gfx` path with `EXTRAIRE_GFX_CYCLE.ps1` and the CSV manifest. The collector preserves the file tree, verifies SHA256 and can optionally convert with ImageMagick. A ready-to-run standalone collector bundle is separately downloadable from ChatGPT.
 
-La carte du cycle utilise en outre un bloc spécifique dans le fichier vanilla partagé `gfx/map/map_modes/map_modes.txt`; le bloc est isolé dans `audit/DYNASTIC_CYCLE_MAPMODE_EXTRACT.txt`, **à ne pas charger tel quel** puisqu'il dépend de variables de map mode définies dans le fichier partagé.
-
-**Rien n'a été copié pour remplacer les fichiers vanilla partagés et aucune image vide ou JSON déguisé en DDS n'est fournie.**
+Do not overwrite vanilla shared textures. No real DDS/PNG has been uploaded to this extraction branch.
