@@ -27,7 +27,7 @@ for f in manifest["files"]:
 graphics = list((root / "game").rglob("*.dds")) if (root / "game").exists() else []
 if graphics:
     errors.append(f"Unexpected DDS files: {len(graphics)}")
-print(f"Checked ${checked}/${len(manifest['files'])} files; shared references: ${manifest['shared_references_verified']['files']}; DDS: ${len(graphics)}")
+print(f"Checked {checked}/{len(manifest['files'])} files; shared references: {manifest['shared_references_verified']['files']}; DDS: {len(graphics)}")
 for e in errors:
     print("ERROR:", e)
 sys.exit(1 if errors else 0)
