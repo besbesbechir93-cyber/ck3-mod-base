@@ -1,0 +1,549 @@
+{
+  "name": "DIWAN - Cycle Dynastique Vanilla - extraction code hors GFX",
+  "repository": "besbesbechir93-cyber/ck3-mod-base",
+  "repository_source_commit": "0ec13350cde9e410b37a46d3616966838f4ba994",
+  "game_version": "1.20.0.3",
+  "generated_on": "2026-10-17",
+  "scope": "source extraction; not yet a standalone drop-in CK3 mod; game/ directory for later selective integration",
+  "counts": {
+    "cycle_specific_source_files": 17,
+    "localization_files": 63,
+    "total_source_files": 80
+  },
+  "files": [
+    {
+      "path": "game/common/situation/situations/tgp_dynastic_cycle.txt",
+      "source": "base/game/common/situation/situations/tgp_dynastic_cycle.txt",
+      "git_blob_sha": "74fc90dc032223bb8f750318853271f3f4b183b8",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/situation/catalysts/10_tgp_dynastic_cycle_catalysts.txt",
+      "source": "base/game/common/situation/catalysts/10_tgp_dynastic_cycle_catalysts.txt",
+      "git_blob_sha": "c23fdb80d45ac7187550b64a494004d7792309bc",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/on_action/dynastic_cycle_on_actions.txt",
+      "source": "base/game/common/on_action/dynastic_cycle_on_actions.txt",
+      "git_blob_sha": "3562677af805cd696bb49a64956305ae17719644",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/scripted_triggers/10_tgp_dynastic_cycle_triggers.txt",
+      "source": "base/game/common/scripted_triggers/10_tgp_dynastic_cycle_triggers.txt",
+      "git_blob_sha": "27b9ea91582df4f2f8a9197f5a01244221a6f4e0",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/scripted_effects/10_dlc_tgp_dynastic_cycle_scripted_effects.txt",
+      "source": "base/game/common/scripted_effects/10_dlc_tgp_dynastic_cycle_scripted_effects.txt",
+      "git_blob_sha": "5925c61fc0d81260b0a5f63a8c37eaf00f56a00a",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/script_values/10_tgp_dynastic_cycle_values.txt",
+      "source": "base/game/common/script_values/10_tgp_dynastic_cycle_values.txt",
+      "git_blob_sha": "39c49564e318391524288fac4ed5f22886e78f8a",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+      "source": "base/game/common/schemes/scheme_types/tgp_dynastic_cycle_schemes.txt",
+      "git_blob_sha": "10cc9e96356ad0879276dc782c02a79f26071a3a",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/secret_types/dynastic_cycle_secrets.txt",
+      "source": "base/game/common/secret_types/dynastic_cycle_secrets.txt",
+      "git_blob_sha": "f7c9a236ac86ae3cdd9441b05a1ae9a4ea35cd6d",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+      "source": "base/game/common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt",
+      "git_blob_sha": "9f4b6297b05f1be31cb39ad1b89dedf6f7be8d92",
+      "kind": "core"
+    },
+    {
+      "path": "game/common/story_cycles/story_cycle_take_mandate_of_heaven.txt",
+      "source": "base/game/common/story_cycles/story_cycle_take_mandate_of_heaven.txt",
+      "git_blob_sha": "bf3393c3eda303f0fd58c29a201d2fa074b16a60",
+      "kind": "core"
+    },
+    {
+      "path": "game/events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+      "source": "base/game/events/dlc/tgp/tgp_dynastic_cycle_events.txt",
+      "git_blob_sha": "389d8b2e00e164031a683899393aba562e5b12dc",
+      "kind": "core"
+    },
+    {
+      "path": "game/events/dlc/tgp/tgp_dynastic_cycle_decision_events.txt",
+      "source": "base/game/events/dlc/tgp/tgp_dynastic_cycle_decision_events.txt",
+      "git_blob_sha": "a4aeea1b8fc4c657c9450354d47604d3ad34b4f6",
+      "kind": "core"
+    },
+    {
+      "path": "game/events/dlc/tgp/tgp_dynastic_cycle_flavor_events.txt",
+      "source": "base/game/events/dlc/tgp/tgp_dynastic_cycle_flavor_events.txt",
+      "git_blob_sha": "be170b8beea1d2b0f8c8849ddf8e92add620e9d3",
+      "kind": "core"
+    },
+    {
+      "path": "game/events/dlc/tgp/tgp_movement_events.txt",
+      "source": "base/game/events/dlc/tgp/tgp_movement_events.txt",
+      "git_blob_sha": "67dc2773ab09c881cf574925d8f8cadc1159a444",
+      "kind": "core"
+    },
+    {
+      "path": "game/history/struggles/tgp_dynastic_cycle_history.txt",
+      "source": "base/game/history/struggles/tgp_dynastic_cycle_history.txt",
+      "git_blob_sha": "3315498afd95149647a823a8eead11707c790a90",
+      "kind": "core"
+    },
+    {
+      "path": "game/gui/window_tgp_dynastic_cycle.gui",
+      "source": "base/game/gui/window_tgp_dynastic_cycle.gui",
+      "git_blob_sha": "01d3cdb20f6f0c4bcfdb38ca8c124d43ecba4a21",
+      "kind": "core"
+    },
+    {
+      "path": "game/gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+      "source": "base/game/gui/event_window_widgets/event_window_widget_situation_info_dynastic_cycle.gui",
+      "git_blob_sha": "0d8c503b8cee926feab2bda73343487bb7f03b63",
+      "kind": "core"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/dlc_tgp_situation_catalysts_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/dlc_tgp_situation_catalysts_l_english.yml",
+      "git_blob_sha": "12ab20a79971b05cfe9c963bb07ac59d825b4f50",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/dlc_tgp_situation_decision_events_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/dlc_tgp_situation_decision_events_l_english.yml",
+      "git_blob_sha": "36127491425a249b5533bf643d474e38781b37e2",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/dlc_tgp_situation_decisions_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/dlc_tgp_situation_decisions_l_english.yml",
+      "git_blob_sha": "779e7d7684a12bd80fc5a73b22c1d9487aeb009e",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/dlc_tgp_situation_parameters_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/dlc_tgp_situation_parameters_l_english.yml",
+      "git_blob_sha": "fbbe766974a687d6984979026a9b179b1a68906c",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_english.yml",
+      "git_blob_sha": "64277409ba42dc7782f0b3c11326199e50065e4e",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/dlc/tgp/tgp_movement_events_l_english.yml",
+      "source": "base/game/localization/english/dlc/tgp/tgp_movement_events_l_english.yml",
+      "git_blob_sha": "2c8e20d0027c3f4f2627b40de25381c0f283e165",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/english/situations/situation_dynastic_cycle_l_english.yml",
+      "source": "base/game/localization/english/situations/situation_dynastic_cycle_l_english.yml",
+      "git_blob_sha": "d1e1acc7fbfcfb10d2b429fc8d8ed00e2da0840d",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/dlc_tgp_situation_catalysts_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/dlc_tgp_situation_catalysts_l_french.yml",
+      "git_blob_sha": "e6fc949a3dcf681e4e90dd77853dd01ac7399f28",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/dlc_tgp_situation_decision_events_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/dlc_tgp_situation_decision_events_l_french.yml",
+      "git_blob_sha": "55ba6a708be1fea3974e15dcbf8cd47e9119e892",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/dlc_tgp_situation_decisions_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/dlc_tgp_situation_decisions_l_french.yml",
+      "git_blob_sha": "580675651e988f6c01f0ba713ce005e6a74fcc98",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/dlc_tgp_situation_parameters_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/dlc_tgp_situation_parameters_l_french.yml",
+      "git_blob_sha": "80be19b21883dc2fc1c86c80ad59d402495fcbfe",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_french.yml",
+      "git_blob_sha": "5a05c3649c5475ae916c64373a648a864e9851c8",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/dlc/tgp/tgp_movement_events_l_french.yml",
+      "source": "base/game/localization/french/dlc/tgp/tgp_movement_events_l_french.yml",
+      "git_blob_sha": "3bd75db42cece7a28c29b01fe9ade20d71b66363",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/french/situations/situation_dynastic_cycle_l_french.yml",
+      "source": "base/game/localization/french/situations/situation_dynastic_cycle_l_french.yml",
+      "git_blob_sha": "9a5250ea6a59bce8c5d23bfe66dd05b782f6b66b",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/dlc_tgp_situation_catalysts_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/dlc_tgp_situation_catalysts_l_german.yml",
+      "git_blob_sha": "555dacbdf2f9f35c148cbb6363c0465fbb73e673",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/dlc_tgp_situation_decision_events_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/dlc_tgp_situation_decision_events_l_german.yml",
+      "git_blob_sha": "a7591fcd74d580494ff592041ad5ecd2a1f00b71",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/dlc_tgp_situation_decisions_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/dlc_tgp_situation_decisions_l_german.yml",
+      "git_blob_sha": "0765a55d980fd5494af16de9dd6c926226d70682",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/dlc_tgp_situation_parameters_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/dlc_tgp_situation_parameters_l_german.yml",
+      "git_blob_sha": "893c4150438e7f5c7cc436f1496db6fc78acef3a",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_german.yml",
+      "git_blob_sha": "f483af550f6e0eb7d7887c7cad97d803f662881c",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/dlc/tgp/tgp_movement_events_l_german.yml",
+      "source": "base/game/localization/german/dlc/tgp/tgp_movement_events_l_german.yml",
+      "git_blob_sha": "b8756fc2c6b7a9dd54d7cbc72da0d6f715df3e81",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/german/situations/situation_dynastic_cycle_l_german.yml",
+      "source": "base/game/localization/german/situations/situation_dynastic_cycle_l_german.yml",
+      "git_blob_sha": "7eed71f30bc54d23f8927e4cbd3f37e93c66639f",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/dlc_tgp_situation_catalysts_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/dlc_tgp_situation_catalysts_l_japanese.yml",
+      "git_blob_sha": "479dc317b44a23bfbe49b498eaf1a9f365e4fc82",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/dlc_tgp_situation_decision_events_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/dlc_tgp_situation_decision_events_l_japanese.yml",
+      "git_blob_sha": "4762cfc546c2e4ebc94fd46dc9eba75a4fbe6801",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/dlc_tgp_situation_decisions_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/dlc_tgp_situation_decisions_l_japanese.yml",
+      "git_blob_sha": "c66b9d1155ed942e21d92b2ab51bdaa5cdcf4cbb",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/dlc_tgp_situation_parameters_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/dlc_tgp_situation_parameters_l_japanese.yml",
+      "git_blob_sha": "1e4d68e35b98a65b131a63c2903432d185a22b6a",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_japanese.yml",
+      "git_blob_sha": "9e30454f8b8ec21640425d0650d31a880065d565",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/dlc/tgp/tgp_movement_events_l_japanese.yml",
+      "source": "base/game/localization/japanese/dlc/tgp/tgp_movement_events_l_japanese.yml",
+      "git_blob_sha": "b46af3188fc7ed4809cb10e140a75e1a1255ad01",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/japanese/situations/situation_dynastic_cycle_l_japanese.yml",
+      "source": "base/game/localization/japanese/situations/situation_dynastic_cycle_l_japanese.yml",
+      "git_blob_sha": "3b2707d1e2afe02efb8499004ea893d81f6595b0",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/dlc_tgp_situation_catalysts_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/dlc_tgp_situation_catalysts_l_korean.yml",
+      "git_blob_sha": "5e05e58a389f94ad2f3b228d44f89c5be226409b",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/dlc_tgp_situation_decision_events_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/dlc_tgp_situation_decision_events_l_korean.yml",
+      "git_blob_sha": "11c388d1909118e6afeded300ff3969c967ea18f",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/dlc_tgp_situation_decisions_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/dlc_tgp_situation_decisions_l_korean.yml",
+      "git_blob_sha": "1f1cb5bb00f70456df200ff5e7de3519ac46bec0",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/dlc_tgp_situation_parameters_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/dlc_tgp_situation_parameters_l_korean.yml",
+      "git_blob_sha": "b3131f65cc59e68d568f70c561c9339ec3652def",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_korean.yml",
+      "git_blob_sha": "f2fa947d866efda9a1ed2e5f079d63f0093018c9",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/dlc/tgp/tgp_movement_events_l_korean.yml",
+      "source": "base/game/localization/korean/dlc/tgp/tgp_movement_events_l_korean.yml",
+      "git_blob_sha": "5bc9df6b696778c21552424895907509507f56e2",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/korean/situations/situation_dynastic_cycle_l_korean.yml",
+      "source": "base/game/localization/korean/situations/situation_dynastic_cycle_l_korean.yml",
+      "git_blob_sha": "2b1f6f0693f6e9b5247d17a29ffd9a1c9b38dd56",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/dlc_tgp_situation_catalysts_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/dlc_tgp_situation_catalysts_l_polish.yml",
+      "git_blob_sha": "5e14487c1ef73a77edb022b028983c98d1d5a5de",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/dlc_tgp_situation_decision_events_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/dlc_tgp_situation_decision_events_l_polish.yml",
+      "git_blob_sha": "5679f8c0356232d31606a704c9fbdaa83feb7930",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/dlc_tgp_situation_decisions_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/dlc_tgp_situation_decisions_l_polish.yml",
+      "git_blob_sha": "7b57b81595b56dd87c91305e7de571f4c6d53524",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/dlc_tgp_situation_parameters_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/dlc_tgp_situation_parameters_l_polish.yml",
+      "git_blob_sha": "93186506c28679dfeac0d251b546823d9af4b799",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_polish.yml",
+      "git_blob_sha": "9b15ef1e92294a0e8b542be96f7fd33f7826b383",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/dlc/tgp/tgp_movement_events_l_polish.yml",
+      "source": "base/game/localization/polish/dlc/tgp/tgp_movement_events_l_polish.yml",
+      "git_blob_sha": "9d7341ac0f7bb30b223f502cca0a2fc43bb4d282",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/polish/situations/situation_dynastic_cycle_l_polish.yml",
+      "source": "base/game/localization/polish/situations/situation_dynastic_cycle_l_polish.yml",
+      "git_blob_sha": "3f9b3b93072bd69279b8e8150be0293f3ad957a4",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/dlc_tgp_situation_catalysts_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/dlc_tgp_situation_catalysts_l_russian.yml",
+      "git_blob_sha": "64eaa2328462ce14064e62179ba3a5f12283c928",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/dlc_tgp_situation_decision_events_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/dlc_tgp_situation_decision_events_l_russian.yml",
+      "git_blob_sha": "07447c8c39a83faf488fc70a602e4c2c5904b27f",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/dlc_tgp_situation_decisions_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/dlc_tgp_situation_decisions_l_russian.yml",
+      "git_blob_sha": "65694fbb0d66a2f975ccfe094af1c23977b56dc5",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/dlc_tgp_situation_parameters_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/dlc_tgp_situation_parameters_l_russian.yml",
+      "git_blob_sha": "e260d4679b01f544055ec8fd3a8b6e364e49531f",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_russian.yml",
+      "git_blob_sha": "d6bd173046427cc79cc9138e2d8b3cb4ecda9b90",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/dlc/tgp/tgp_movement_events_l_russian.yml",
+      "source": "base/game/localization/russian/dlc/tgp/tgp_movement_events_l_russian.yml",
+      "git_blob_sha": "507045f062c29676482f01bce518ad0adce25ad2",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/russian/situations/situation_dynastic_cycle_l_russian.yml",
+      "source": "base/game/localization/russian/situations/situation_dynastic_cycle_l_russian.yml",
+      "git_blob_sha": "eca9090c160bfb92ebde4b8a593991dc68215e61",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_catalysts_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_catalysts_l_simp_chinese.yml",
+      "git_blob_sha": "44b15276de38854660f36193cd63d39ba16f022e",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_decision_events_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_decision_events_l_simp_chinese.yml",
+      "git_blob_sha": "295fbd6d67bd2e12def5c14a31401fe76301423c",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_decisions_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_decisions_l_simp_chinese.yml",
+      "git_blob_sha": "71ce784d73201986e64e154094ae661fb4c602fa",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_parameters_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/dlc_tgp_situation_parameters_l_simp_chinese.yml",
+      "git_blob_sha": "b7cae561946c27434ed44a3d9d1ae3ef1d75d579",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_simp_chinese.yml",
+      "git_blob_sha": "81dcde390c26d427522970ccebd3ee9590f24392",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/dlc/tgp/tgp_movement_events_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/dlc/tgp/tgp_movement_events_l_simp_chinese.yml",
+      "git_blob_sha": "aa6c439b78dc9d896297f2c39a982c1bd2a7e3cd",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/simp_chinese/situations/situation_dynastic_cycle_l_simp_chinese.yml",
+      "source": "base/game/localization/simp_chinese/situations/situation_dynastic_cycle_l_simp_chinese.yml",
+      "git_blob_sha": "d73b6d7df6e5762659beddc19eb3506832c8108b",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/dlc_tgp_situation_catalysts_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/dlc_tgp_situation_catalysts_l_spanish.yml",
+      "git_blob_sha": "b260d94b7f2bd4e69455a8c5942ebd8cdd7d964f",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/dlc_tgp_situation_decision_events_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/dlc_tgp_situation_decision_events_l_spanish.yml",
+      "git_blob_sha": "10de92d00cf466a285d0196926842b39bfd45c2d",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/dlc_tgp_situation_decisions_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/dlc_tgp_situation_decisions_l_spanish.yml",
+      "git_blob_sha": "fd784b36350d2f0be5e707c6ed5bf55e820ca113",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/dlc_tgp_situation_parameters_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/dlc_tgp_situation_parameters_l_spanish.yml",
+      "git_blob_sha": "6ee8565081a30742c73ef7a7b4a1f0e911c7b1df",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/tgp_dynastic_cycle_flavor_events_l_spanish.yml",
+      "git_blob_sha": "0b893892e44826f578b8c52689d2a75bf16777d4",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/dlc/tgp/tgp_movement_events_l_spanish.yml",
+      "source": "base/game/localization/spanish/dlc/tgp/tgp_movement_events_l_spanish.yml",
+      "git_blob_sha": "62bf6d791110e3daa06fe214debd79b0292f48d6",
+      "kind": "localization"
+    },
+    {
+      "path": "game/localization/spanish/situations/situation_dynastic_cycle_l_spanish.yml",
+      "source": "base/game/localization/spanish/situations/situation_dynastic_cycle_l_spanish.yml",
+      "git_blob_sha": "8f3f16541b9175deb964b236f14d3dfc181d6a6b",
+      "kind": "localization"
+    }
+  ],
+  "shared_dependency_references": {
+    "shared_events": [
+      "events/dlc/tgp/tgp_china_career_events.txt",
+      "events/dlc/tgp/tgp_china_ministry_events.txt",
+      "events/secret_events/secrets_events.txt",
+      "events/situation_events/tgp_natural_disaster_events.txt"
+    ],
+    "shared_on_actions": [
+      "common/on_action/game_start.txt",
+      "common/on_action/yearly_on_actions.txt",
+      "common/on_action/title_on_actions.txt",
+      "common/on_action/war_on_actions.txt",
+      "common/on_action/death.txt",
+      "common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt"
+    ],
+    "shared_gui": [
+      "gui/hud.gui",
+      "gui/texticons.gui",
+      "gui/window_silk_road.gui",
+      "gui/window_intrigue.gui",
+      "gui/window_activity_list.gui",
+      "gui/window_domicile.gui"
+    ],
+    "shared_code": [
+      "common/character_interactions/10_tgp_interactions.txt",
+      "common/casus_belli_types/10_tgp_china_wars.txt",
+      "common/character_interactions/00_tributary_interactions.txt",
+      "common/character_interactions/06_ep3_interactions.txt",
+      "common/character_interactions/00_grant_titles_interaction.txt",
+      "common/laws/00_realm_laws.txt",
+      "common/laws/02_admininistrative_laws.txt",
+      "common/scripted_triggers/00_secret_type_triggers.txt",
+      "common/secret_types/dynastic_cycle_secrets.txt",
+      "common/succession_appointment/celestial_minister.txt",
+      "common/great_projects/types/00_ministry_projects.txt",
+      "common/activities/activity_types/debate.txt",
+      "common/activities/activity_types/imperial_examination.txt",
+      "common/scripted_rules/00_rules.txt",
+      "common/factions/00_peasant_faction_new.txt",
+      "common/factions/00_populist_faction.txt",
+      "common/event_themes/00_event_themes.txt",
+      "common/game_concepts/tgp_game_concepts.txt"
+    ]
+  },
+  "excluded": [
+    "game/gfx/**",
+    "all shared vanilla code not exclusively owned by the cycle"
+  ],
+  "warnings": [
+    "The user fork holds CK3 1.20.0.3, NOT 1.20.1.1.",
+    "Some localization files cover shared TGP situation terms and must be rechecked before merging with a mod.",
+    "The source files are exact vanilla Git blobs, not adapted Diwan implementations.",
+    "Any missing dependencies must be wired via native vanilla calls; do not wholesale override shared GUI/on-actions."
+  ]
+}
