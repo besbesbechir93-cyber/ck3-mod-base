@@ -1,0 +1,102 @@
+name: Export Dynastic Cycle Sources
+on:
+  push:
+    branches:
+      - diwan-dynastic-cycle-extraction-1.20.1.1
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Read current vanilla master
+        run: git fetch --depth=1 origin master
+      - name: Assemble code GUI and all common files
+        shell: bash
+        run: |
+          mkdir -p export/game
+          cp -a game/. export/game/
+          mkdir -p export/docs
+          cp -a audit_1_20_1_1 export/docs/
+          cp -a gfx_audit export/docs/
+          cp README_EXTRACTION.md ETAT_ET_REFERENCES.md export/docs/
+          cat > export/docs/SHARED_REQUESTED.txt <<'EOF'
+          game/gui/hud.gui
+          game/gui/texticons.gui
+          game/gui/window_silk_road.gui
+          game/gui/window_domicile.gui
+          game/gui/window_intrigue.gui
+          game/gui/window_activity_list.gui
+          game/common/on_action/game_start.txt
+          game/common/on_action/yearly_on_actions.txt
+          game/common/on_action/title_on_actions.txt
+          game/common/on_action/war_on_actions.txt
+          game/common/on_action/death.txt
+          game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt
+          game/common/character_interactions/10_tgp_interactions.txt
+          game/common/character_interactions/00_tributary_interactions.txt
+          game/common/character_interactions/06_ep3_interactions.txt
+          game/common/character_interactions/00_grant_titles_interaction.txt
+          game/common/casus_belli_types/10_tgp_china_wars.txt
+          game/common/casus_belli_groups/00_casus_belli_groups.txt
+          game/common/scripted_effects/10_dlc_tgp_scripted_effects.txt
+          game/common/scripted_triggers/10_tgp_triggers.txt
+          game/common/scripted_triggers/00_secret_type_triggers.txt
+          game/common/laws/00_realm_laws.txt
+          game/common/laws/02_admininistrative_laws.txt
+          game/common/succession_appointment/celestial_minister.txt
+          game/common/subject_contracts/contracts/celestial.txt
+          game/common/factions/00_peasant_faction_new.txt
+          game/common/factions/00_populist_faction.txt
+          game/common/great_projects/types/00_ministry_projects.txt
+          game/common/activities/activity_types/imperial_examination.txt
+          game/common/activities/activity_types/debate.txt
+          game/common/game_concepts/tgp_game_concepts.txt
+          game/common/landed_titles/02_china.txt
+          game/common/script_values/tgp_values.txt
+          game/common/script_values/tgp_natural_disaster_values.txt
+          game/common/legitimacy/00_legitimacy.txt
+          game/common/important_actions/tgp_actions.txt
+          game/common/activities/intents/debate_intents.txt
+          game/common/activities/pulse_actions/debate_pulse_actions.txt
+          game/common/character_interactions/00_blackmail_interactions.txt
+          game/common/character_interactions/00_debug_interactions.txt
+          game/common/customizable_localization/10_tgp_custom_loc.txt
+          game/common/decision_group_types/00_decision_group_types.txt
+          game/common/decisions/dlc_decisions/tgp/tgp_china_decisions.txt
+          game/common/decisions/dlc_decisions/tgp/tgp_tribute_mission_decisions.txt
+          game/common/event_themes/00_event_themes.txt
+          game/common/on_action/mandate_on_actions.txt
+          game/common/opinion_modifiers/10_dlc_tgp_opinions.txt
+          game/common/scripted_effects/tgp_debate_scripted_effects.txt
+          game/common/scripted_rules/00_rules.txt
+          game/common/situation/catalysts/10_tgp_silk_road_catalysts.txt
+          game/events/dlc/tgp/tgp_china_ministry_events.txt
+          game/events/dlc/tgp/tgp_interaction_events.txt
+          game/events/secret_events/secrets_events.txt
+          game/events/situation_events/tgp_natural_disaster_events.txt
+          game/gfx/map/map_modes/map_modes.txt
+          EOF
+          missing=0
+          while IFS= read -r p; do
+            [ -n "$p" ] || continue
+            if git cat-file -e "origin/master:base/$p" 2>/dev/null; then
+              mkdir -p "export/$(dirname "$p")"
+              git show "origin/master:base/$p" > "export/$p"
+            else
+              echo "$p" >> export/docs/MISSING_SHARED.txt
+              missing=$((missing+1))
+            fi
+          done < export/docs/SHARED_REQUESTED.txt
+          echo "Missing shared files: $missing"
+          find export -type f | wc -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CK3-Dynastic-Cycle-1-20-1-1-CODE-AND-COMMON
+          path: export/
+          if-no-files-found: error
+          compression-level: 6
