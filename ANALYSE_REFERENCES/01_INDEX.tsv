@@ -1,0 +1,116 @@
+chemin_vanilla	ligne	contenu
+game/common/on_action/game_start.txt	1442	situation:dynastic_cycle ?= {
+game/common/on_action/game_start.txt	1454	phase = situation_dynastic_cycle_phase_chaos
+game/common/on_action/game_start.txt	2346	situation:dynastic_cycle ?= {
+game/common/on_action/game_start.txt	2348	situation_current_phase = situation_dynastic_cycle_phase_stability_expansion
+game/common/on_action/game_start.txt	2349	situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+game/common/on_action/game_start.txt	3452	situation:dynastic_cycle ?= {
+game/common/on_action/game_start.txt	3453	situation_current_phase = situation_dynastic_cycle_phase_stability_advancement
+game/common/on_action/yearly_on_actions.txt	773	exists = top_participant_group:dynastic_cycle
+game/common/on_action/yearly_on_actions.txt	779	situation:dynastic_cycle = {
+game/common/on_action/yearly_on_actions.txt	782	situation_dynastic_cycle_phase_stability = {
+game/common/on_action/yearly_on_actions.txt	783	value = imperial_grace_loss_situation_dynastic_cycle_phase_stability
+game/common/on_action/yearly_on_actions.txt	785	situation_dynastic_cycle_phase_stability_expansion = {
+game/common/on_action/yearly_on_actions.txt	786	value = imperial_grace_loss_situation_dynastic_cycle_phase_stability_expansion
+game/common/on_action/yearly_on_actions.txt	788	situation_dynastic_cycle_phase_stability_advancement = {
+game/common/on_action/yearly_on_actions.txt	789	value = imperial_grace_loss_situation_dynastic_cycle_phase_stability_advancement
+game/common/on_action/yearly_on_actions.txt	791	situation_dynastic_cycle_phase_instability = {
+game/common/on_action/yearly_on_actions.txt	792	value = imperial_grace_loss_situation_dynastic_cycle_phase_instability
+game/common/on_action/yearly_on_actions.txt	794	situation_dynastic_cycle_phase_instability_conquest = {
+game/common/on_action/yearly_on_actions.txt	795	value = imperial_grace_loss_situation_dynastic_cycle_phase_instability_conquest
+game/common/on_action/yearly_on_actions.txt	797	situation_dynastic_cycle_phase_chaos = {
+game/common/on_action/yearly_on_actions.txt	798	value = imperial_grace_loss_situation_dynastic_cycle_phase_chaos
+game/common/on_action/yearly_on_actions.txt	823	NOT = { exists = suzerain.top_participant_group:dynastic_cycle }
+game/common/on_action/yearly_on_actions.txt	2649	top_participant_group:dynastic_cycle ?= {
+game/common/on_action/yearly_on_actions.txt	4276	200 = tgp_dynastic_cycle_events.0001 # Tilt the scales towards Advancement
+game/common/on_action/yearly_on_actions.txt	4277	200 = tgp_dynastic_cycle_events.0010 # Disciple has a mental breakdown in Instability
+game/common/on_action/yearly_on_actions.txt	4278	200 = tgp_dynastic_cycle_events.0020 # Rowdy peasants steal food during Instability
+game/common/on_action/yearly_on_actions.txt	4279	200 = tgp_dynastic_cycle_events.0030 # In this time of Expansion you should become a Military Governor
+game/common/on_action/yearly_on_actions.txt	4280	200 = tgp_dynastic_cycle_events.0040 # Steward is interested in the Silk Road
+game/common/on_action/yearly_on_actions.txt	4281	200 = tgp_dynastic_cycle_events.0050 # Debate the Favoured Movement and get ahead of them
+game/common/on_action/title_on_actions.txt	114	situation:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	117	situation_top_has_catalyst = catalyst_hegemon_lost_mandate_of_heaven
+game/common/on_action/title_on_actions.txt	120	catalyst = catalyst_hegemon_lost_mandate_of_heaven
+game/common/on_action/title_on_actions.txt	1626	situation:dynastic_cycle = {
+game/common/on_action/title_on_actions.txt	1628	change_phase = { phase = situation_dynastic_cycle_phase_instability_conquest }
+game/common/on_action/title_on_actions.txt	1634	situation:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	1635	situation_current_phase = situation_dynastic_cycle_phase_instability_conquest
+game/common/on_action/title_on_actions.txt	1638	situation:dynastic_cycle = {
+game/common/on_action/title_on_actions.txt	1640	change_phase = { phase = situation_dynastic_cycle_phase_instability }
+game/common/on_action/title_on_actions.txt	1651	situation:dynastic_cycle = {
+game/common/on_action/title_on_actions.txt	1661	situation:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	2256	situation:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	2258	limit = { situation_top_has_catalyst = catalyst_hegemon_appointing_low_merit_governor }
+game/common/on_action/title_on_actions.txt	2260	catalyst = catalyst_hegemon_appointing_low_merit_governor
+game/common/on_action/title_on_actions.txt	2275	situation:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	2277	limit = { situation_top_has_catalyst = catalyst_hegemon_appointing_low_merit_councillor }
+game/common/on_action/title_on_actions.txt	2279	catalyst = catalyst_hegemon_appointing_low_merit_councillor
+game/common/on_action/title_on_actions.txt	4098	any_character_situation = { this = situation:dynastic_cycle }
+game/common/on_action/title_on_actions.txt	4100	situation:dynastic_cycle = {
+game/common/on_action/title_on_actions.txt	5004	exists = top_participant_group:dynastic_cycle
+game/common/on_action/title_on_actions.txt	5010	liege.top_participant_group:dynastic_cycle ?= {
+game/common/on_action/title_on_actions.txt	5019	recalculate_participant_group = situation:dynastic_cycle
+game/common/on_action/war_on_actions.txt	1113	situation:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	1115	limit = { situation_top_has_catalyst = catalyst_hegemon_in_civil_war }
+game/common/on_action/war_on_actions.txt	1117	catalyst = catalyst_hegemon_in_civil_war
+game/common/on_action/war_on_actions.txt	1502	top_participant_group:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	1503	has_participant_group_parameter = dynastic_cycle_hegemon_legitimacy_from_external_conquest
+game/common/on_action/war_on_actions.txt	1522	title = dynastic_cycle_hegemon_legitimacy_from_external_conquest_title
+game/common/on_action/war_on_actions.txt	1538	title = dynastic_cycle_hegemon_legitimacy_from_external_conquest_title
+game/common/on_action/war_on_actions.txt	1556	situation:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	1558	limit = { situation_top_has_catalyst = catalyst_hegemon_won_war }
+game/common/on_action/war_on_actions.txt	1560	catalyst = catalyst_hegemon_won_war
+game/common/on_action/war_on_actions.txt	1573	situation:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	1575	limit = { situation_top_has_catalyst = catalyst_hegemon_lost_war }
+game/common/on_action/war_on_actions.txt	1577	catalyst = catalyst_hegemon_lost_war
+game/common/on_action/war_on_actions.txt	1583	situation_top_has_catalyst = catalyst_hegemon_lost_defensive_territorial_war
+game/common/on_action/war_on_actions.txt	1587	catalyst = catalyst_hegemon_lost_defensive_territorial_war
+game/common/on_action/war_on_actions.txt	1593	situation_top_has_catalyst = catalyst_hegemon_lost_capital_in_war
+game/common/on_action/war_on_actions.txt	1600	catalyst = catalyst_hegemon_lost_capital_in_war
+game/common/on_action/war_on_actions.txt	2182	situation:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	2184	limit = { situation_top_has_catalyst = catalyst_hegemon_lost_war }
+game/common/on_action/war_on_actions.txt	2186	catalyst = catalyst_hegemon_lost_war
+game/common/on_action/war_on_actions.txt	2198	situation:dynastic_cycle ?= {
+game/common/on_action/war_on_actions.txt	2200	limit = { situation_top_has_catalyst = catalyst_hegemon_won_war }
+game/common/on_action/war_on_actions.txt	2202	catalyst = catalyst_hegemon_won_war
+game/common/on_action/death.txt	1765	situation:dynastic_cycle = {
+game/common/on_action/death.txt	1769	situation_top_has_catalyst = catalyst_hegemon_murdered
+game/common/on_action/death.txt	1772	catalyst = catalyst_hegemon_murdered
+game/common/on_action/death.txt	1778	situation_top_has_catalyst = catalyst_imperial_family_member_murdered
+game/common/on_action/death.txt	1781	catalyst = catalyst_imperial_family_member_murdered
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	6	exists = top_participant_group:dynastic_cycle
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	32	200 = tgp_dynastic_cycle_events.0001 # Tilt the scales towards Advancement
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	33	250 = tgp_dynastic_cycle_events.0010 # Disciple has a mental breakdown in Instability
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	34	100 = tgp_dynastic_cycle_events.0020 # Rowdy peasants steal food during Instability
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	35	200 = tgp_dynastic_cycle_events.0030 # In this time of Expansion you should become a Military Governor
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	36	100 = tgp_dynastic_cycle_events.0040 # Steward is interested in the Silk Road
+game/common/on_action/dlc/tgp/tgp_china_yearly_on_actions.txt	37	100 = tgp_dynastic_cycle_events.0050 # Debate the Favoured Movement and get ahead of them
+game/gui/hud.gui	1726	visible = "[And(GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('other_rulers').IsCharacterParticipant( Character.Self ), Character.ShouldShowMerit)]"
+game/gui/hud.gui	2434	name = "dynastic_cycle_highlight"
+game/gui/hud.gui	2436	onclick = "[OpenGuiTab( 'dynastic_cycle_tabs', 'dynastic_cycle' )]"
+game/gui/hud.gui	2483	text = "DYNASTIC_CYCLE_FUTURE_ERA_TT"
+game/gui/hud.gui	2508	texture = "gfx/interface/hud/situation_background_dynastic_cycle.dds"
+game/gui/hud.gui	4888	onclick = "[OpenGuiTab( 'dynastic_cycle_tabs', 'movements' )]"
+game/gui/hud.gui	4889	tooltip = "[SelectLocalization( And(SituationParticipantGroup.IsValid, InGameBottomBar.ShouldShowDynasticCycleOwnedLand), 'DYNASTIC_CYCLE_HUD_GROUP_OWNED_LAND_TOOLTIP', 'DYNASTIC_CYCLE_HUD_GROUP_POWER_TOOLTIP' )]"
+game/gui/hud.gui	4938	tooltip = "DYNASTIC_CYCLE_HUD_PERSONAL_MOVEMENT_POWER_TT"
+game/gui/hud.gui	4968	texture = "gfx/interface/icons/dynastic_cycle/favored_by_hegemon.dds"
+game/gui/hud.gui	4973	tooltip = "DYNASTIC_CYCLE_WINDOW_FAVORED_MOVEMENT_TOOLTIP"
+game/gui/hud.gui	8024	texture = "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_stability.dds"
+game/gui/hud.gui	8038	texture = "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_consolidation.dds"
+game/gui/texticons.gui	5547	icon = tgp_dynastic_cycle_expansion_icon
+game/gui/texticons.gui	5549	texture = "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_expansion.dds"
+game/gui/texticons.gui	5557	icon = tgp_dynastic_cycle_advancement_icon
+game/gui/texticons.gui	5559	texture = "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_advancement.dds"
+game/gui/texticons.gui	5567	icon = tgp_dynastic_cycle_instability_icon
+game/gui/texticons.gui	5569	texture = "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_instability.dds"
+game/gui/texticons.gui	5577	icon = tgp_dynastic_cycle_conquest_icon
+game/gui/texticons.gui	5579	texture = "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_conquest.dds"
+game/gui/texticons.gui	5587	icon = tgp_dynastic_cycle_chaos_icon
+game/gui/texticons.gui	5589	texture = "gfx/interface/icons/dynastic_cycle/dynastic_cycle_phase_chaos.dds"
+game/gui/texticons.gui	5659	texture = "gfx/interface/icons/portraits/dynastic_cycle_group_unaligned.dds"
+game/gui/window_silk_road.gui	133	datacontext = "[GetSituation('dynastic_cycle')]"
+game/gui/window_silk_road.gui	193	text = "DYNASTIC_CYCLE_EVENT_CURRENT_ERA"
+game/gui/window_silk_road.gui	676	text = "DYNASTIC_CYCLE_WINDOW_TOGGLE_CATALYSTS"
+game/gui/window_intrigue.gui	2725	button_dynastic_cycle_decision = {
+game/gui/window_activity_list.gui	205	datacontext = "[GetSituation('dynastic_cycle').GetParticipantGroupByCharacter( Character.Self )]"
+game/gui/window_domicile.gui	1561	visible = "[Not( ObjectsEqual( GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(Character.Self), GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler') ) )]"
