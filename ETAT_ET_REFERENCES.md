@@ -1,30 +1,29 @@
-# ETAT DE L'EXTRACTION (hors GFX)
+# Reconciliation CK3 1.20.1.1 (17 October 2026)
 
-**Source originale** : https://github.com/besbesbechir93-cyber/ck3-mod-base/tree/master/base/game
+Source: `besbesbechir93-cyber/ck3-mod-base`, `master`, commit `9a5d0ff6e105297755e19d574cbf4eacdd972709`. The original version metadata is 1.20.1.1 (Crozier).
 
-**Version de CE dépôt** : CK3 **1.20.0.3** (Crozier), fichier `base/.ck3-version.json`. **Ne pas confondre avec jesec/ck3-mod-base version 1.20.1.1**.
+Comparison with previous extracted branch 1.20.0.3:
 
-**Livraison** : branche dédiée `diwan-dynastic-cycle-hors-gfx-12003`; l'archive de branche GitHub contient uniquement l'extraction.
+- 18/18 core script, event, GUI and history files checked by Git blob SHA; **3 changed**.
+- 74/74 locale files across nine languages checked; **9 changed**, each in `localization/<lang>/situations/situation_dynastic_cycle_l_<lang>.yml`.
+- Updated exactly these 12 blobs to the corresponding Git SHA from current `master`. Source filenames and placement retained.
+- 29 specific DDS paths verified from source directories: icon groups, situation phases, event icons, wheel GUI, 3 illustrations, HUD and flat icon. The directories containing these files and individual remaining exceptions were compared; all **29 metadata entries** are unchanged between 1.20.0.3 and 1.20.1.1.
+- **Actual DDS binaries still NOT available** in GitHub. Only metadata stubs, original expected sizes and SHA256. No DDS or PNG supplied; do not use stub JSON as texture.
+- Three reference-audit reports document shared-file locations as read in the 1.20.0.3 snapshot; these **reports are not revalidated or updated line-by-line against 1.20.1.1**. Use them as preliminary location hints, not current line numbers. The same caution applies to the extracted map-mode example.
+- This is an isolated study/extraction branch; it is NOT a complete playable mod. External events, interactions and indirect dependencies may still need selective integration. Vanilla generic files and `master` were not modified.
 
-## Contenu vérifié
+Updated core files:
+- `game/common/decisions/dlc_decisions/tgp/tgp_dynastic_cycle_decisions.txt`
+- `game/common/on_action/dynastic_cycle_on_actions.txt`
+- `game/gui/window_tgp_dynastic_cycle.gui`
 
-- 18 fichiers vanilla non-localisation : situation du cycle, 92 déclarations de catalyseurs (le nombre est un compte d'entrées déclarées, certaines sont annotées comme non implémentées par vanilla), on_actions, triggers, scripted_effects, script_values, décisions, intrigues, secrets, story cycle du Mandat du Ciel, événements du cycle, événements des mouvements et des carrières, historique, fenêtre GUI principale et widget d'événement spécialisé.
-- 74 fichiers de localisation originale en 9 langues : anglais, français, allemand, espagnol, japonais, coréen, polonais, russe, chinois simplifié.
-- 3 rapports d'extraits de références dans 36 fichiers vanilla partagés : interfaces et on_actions, lois/guerres/interactions, administration/projets/titres. Les extraits sont des informations de raccord, **pas des remplacements prêts à copier dans le dossier game**.
-- Les chemins sous `game/` correspondent aux chemins sous `base/game/` de la source.
-
-## Règle stricte de compatibilité
-
-NE PAS placer l'archive entière comme un mod activé CK3 : l'extraction est documentaire, n'est pas un DLC autonome ni un mod terminé. Garder les fonctions génériques de CK3 et les dossiers partagés existants. Pour intégrer à Diwan, fusionner seulement les blocs spécifiques et résoudre les conflits GUI et script avec CK3 1.20.1 avant mise en jeu.
-
-Aucune texture, image, illustration, police ou autre fichier `gfx` n'est inclus, et les références à des chemins `.dds` ne signifient pas que les textures sont présentes.
-
-## Reste à réaliser
-
-- Identifier et isoler chaque bloc exécutable présent dans les fichiers partagés; les rapports fournis ne remplacent pas cette étape.
-- Fermer toutes les dépendances indirectes (il reste des interactions, événements, activités et localisations d'autres mécanismes chinois non inclus intégralement).
-- Adapter à la version cible finale du jeu (1.20.1.1 ou ultérieure), vérifier les ressources graphiques originelles depuis l'installation, analyser les conflits Diwan et tester en jeu.
-
-## Interdictions de fusion automatique
-
-Ne jamais écraser `gui/hud.gui`, `gui/texticons.gui`, `common/on_action/game_start.txt`, `common/on_action/title_on_actions.txt`, `common/laws/00_realm_laws.txt` ni les autres fichiers partagés par simple remplacement.
+Updated situation-localization files:
+- `game/localization/english/situations/situation_dynastic_cycle_l_english.yml`
+- `game/localization/french/situations/situation_dynastic_cycle_l_french.yml`
+- `game/localization/german/situations/situation_dynastic_cycle_l_german.yml`
+- `game/localization/japanese/situations/situation_dynastic_cycle_l_japanese.yml`
+- `game/localization/korean/situations/situation_dynastic_cycle_l_korean.yml`
+- `game/localization/polish/situations/situation_dynastic_cycle_l_polish.yml`
+- `game/localization/russian/situations/situation_dynastic_cycle_l_russian.yml`
+- `game/localization/simp_chinese/situations/situation_dynastic_cycle_l_simp_chinese.yml`
+- `game/localization/spanish/situations/situation_dynastic_cycle_l_spanish.yml`
