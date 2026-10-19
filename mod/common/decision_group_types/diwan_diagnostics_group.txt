@@ -1,0 +1,3 @@
+diwan_diagnostics = {
+	sort_order = -2
+}
