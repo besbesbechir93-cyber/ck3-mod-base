@@ -1,0 +1,478 @@
+# CK3 1.20.1.1 — DIWAN DIAGNOSTICS (READ-ONLY)
+# Tests intentionally never change the game state.
+# Install only in a diagnostic mod build; no dependency on a guessed Diwan government key.
+
+diwan_diag_01_admin_mechanic_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_01_admin_mechanic_decision_condition_tt
+		government_has_mechanic = administrative
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_02_independent_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_02_independent_decision_condition_tt
+		is_independent_ruler = yes
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_03_governor_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_03_governor_decision_condition_tt
+		is_governor_or_admin_count = yes
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_04_merit_rule_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_04_merit_rule_decision_condition_tt
+		government_allows = merit
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_05_merit_flag_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_05_merit_flag_decision_condition_tt
+		government_has_flag = government_has_merit
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_06_merit_60_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_06_merit_60_decision_condition_tt
+		merit >= 60
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_07_merit_100_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_07_merit_100_decision_condition_tt
+		merit >= 100
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_08_rank_1_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_08_rank_1_decision_condition_tt
+		merit_level >= 1
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_09_rank_3_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_09_rank_3_decision_condition_tt
+		merit_level >= 3
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_10_treasury_active_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_10_treasury_active_decision_condition_tt
+		has_treasury = yes
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_11_treasury_flag_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_11_treasury_flag_decision_condition_tt
+		government_has_flag = government_has_treasury
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_12_influence_flag_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_12_influence_flag_decision_condition_tt
+		government_has_flag = government_has_influence
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_13_estate_flag_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_13_estate_flag_decision_condition_tt
+		OR = {
+			government_has_flag = government_has_east_asian_estate
+			government_has_flag = government_has_estate
+		}
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_14_admin_obligations_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_14_admin_obligations_decision_condition_tt
+		government_has_flag = government_uses_admin_province_obligations
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_15_vassal_admin_exists_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_15_vassal_admin_exists_decision_condition_tt
+		any_direct_vassal = {
+			primary_title.tier >= tier_county
+			government_has_mechanic = administrative
+		}
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_16_all_vassals_admin_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_16_all_vassals_admin_decision_condition_tt
+		any_direct_vassal = { primary_title.tier >= tier_county }
+		NOT = {
+			any_direct_vassal = {
+				primary_title.tier >= tier_county
+				NOT = { government_has_mechanic = administrative }
+			}
+		}
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_17_all_vassals_merit_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_17_all_vassals_merit_decision_condition_tt
+		any_direct_vassal = { primary_title.tier >= tier_county }
+		NOT = {
+			any_direct_vassal = {
+				primary_title.tier >= tier_county
+				NOT = { government_has_flag = government_has_merit }
+			}
+		}
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_18_vanilla_meritocratic_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_18_vanilla_meritocratic_decision_condition_tt
+		has_government = meritocratic_government
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_19_vanilla_celestial_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_19_vanilla_celestial_decision_condition_tt
+		has_government = celestial_government
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_20_vanilla_clan_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_20_vanilla_clan_decision_condition_tt
+		has_government = clan_government
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_21_meritocratic_bureaucracy_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_21_meritocratic_bureaucracy_decision_condition_tt
+		government_has_flag = government_uses_meritocratic_bureaucracy
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_22_celestial_bureaucracy_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_22_celestial_bureaucracy_decision_condition_tt
+		government_has_flag = government_uses_celestial_bureaucracy
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_23_salary_budget_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_23_salary_budget_decision_condition_tt
+		government_has_flag = government_uses_salary_budget
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
+diwan_diag_24_liege_merit_decision = {
+	decision_group_type = diwan_diagnostics
+	ai_check_interval = 0
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = diwan_diag_24_liege_merit_decision_condition_tt
+		liege ?= { government_has_flag = government_has_merit }
+		}
+	}
+	effect = {
+		custom_tooltip = diwan_diag_no_effect_tt
+	}
+}
+
